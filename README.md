@@ -18,10 +18,11 @@ The system follows a **"Store-Once, Train-Anytime"** pipeline:
 
 ```mermaid
 graph LR
-    A[Raw EEG Data\n(.mat / .dat)] --> B(ETL Pipelines)
-    B --> C[(MySQL Database\nFeature Store)]
-    C --> D(ML Training\nRandom Forest)
+    A[Raw EEG Data (.mat / .dat)] --> B[ETL Pipelines]
+    B --> C[(MySQL Feature Store)]
+    C --> D[ML Training - Random Forest]
     D --> E[Evaluation Report]
+
 ```
 
 ## 📂 Repository Structure

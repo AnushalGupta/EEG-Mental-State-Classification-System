@@ -1,0 +1,7 @@
+Setting up database...
+Table 'eeg_features' checked/created successfully.
+DEBUG: Files found: ['eeg_record1.mat']
+Found 1 .mat files.
+Processing eeg_record1.mat...
+Skipping eeg_record1.mat: Expected 14 channels, got 15
+ETL Complete. Total epochs stored: 0

@@ -1,0 +1,294 @@
+C:\Users\anush\Downloads\Compressed\Coding\Project\EEG Data\train_model.py:17: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, conn)
+C:\Users\anush\Downloads\Compressed\Coding\Project\EEG Data\train_model.py:17: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, conn)
+C:\Users\anush\Downloads\Compressed\Coding\Project\EEG Data\train_model.py:17: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, conn)
+
+==========================================
+EXPERIMENT: Phase 3a: Baseline (EMOTIV)
+Datasets: ['EMOTIV']
+==========================================
+Loading data for ['EMOTIV'] from Database...
+Loaded 19468 samples.
+Class distribution: {2: 11376, 0: 4046, 1: 4046}
+
+--- Starting Training (GroupKFold) ---
+Random Seed: 42
+Class Weights: Balanced
+
+FOLD 1: Accuracy = 0.6904 | Macro F1 = 0.5081
+Confusion Matrix:
+ [[ 501   24  308]
+ [ 237   50  546]
+ [ 105   23 2221]]
+              precision    recall  f1-score   support
+
+           0       0.59      0.60      0.60       833
+           1       0.52      0.06      0.11       833
+           2       0.72      0.95      0.82      2349
+
+    accuracy                           0.69      4015
+   macro avg       0.61      0.54      0.51      4015
+weighted avg       0.65      0.69      0.63      4015
+
+
+FOLD 2: Accuracy = 0.7232 | Macro F1 = 0.5407
+Confusion Matrix:
+ [[ 474   33  207]
+ [ 138   40  536]
+ [  51   25 2072]]
+              precision    recall  f1-score   support
+
+           0       0.71      0.66      0.69       714
+           1       0.41      0.06      0.10       714
+           2       0.74      0.96      0.83      2148
+
+    accuracy                           0.72      3576
+   macro avg       0.62      0.56      0.54      3576
+weighted avg       0.67      0.72      0.66      3576
+
+
+FOLD 3: Accuracy = 0.6467 | Macro F1 = 0.5057
+Confusion Matrix:
+ [[ 475   45  313]
+ [ 123   85  625]
+ [ 164  120 1984]]
+              precision    recall  f1-score   support
+
+           0       0.62      0.57      0.60       833
+           1       0.34      0.10      0.16       833
+           2       0.68      0.87      0.76      2268
+
+    accuracy                           0.65      3934
+   macro avg       0.55      0.52      0.51      3934
+weighted avg       0.60      0.65      0.60      3934
+
+
+FOLD 4: Accuracy = 0.6299 | Macro F1 = 0.4631
+Confusion Matrix:
+ [[ 428   36  369]
+ [ 165   54  614]
+ [ 214   96 2061]]
+              precision    recall  f1-score   support
+
+           0       0.53      0.51      0.52       833
+           1       0.29      0.06      0.11       833
+           2       0.68      0.87      0.76      2371
+
+    accuracy                           0.63      4037
+   macro avg       0.50      0.48      0.46      4037
+weighted avg       0.57      0.63      0.58      4037
+
+
+FOLD 5: Accuracy = 0.6400 | Macro F1 = 0.4222
+Confusion Matrix:
+ [[ 293   25  515]
+ [  76   11  746]
+ [  44    0 2196]]
+              precision    recall  f1-score   support
+
+           0       0.71      0.35      0.47       833
+           1       0.31      0.01      0.03       833
+           2       0.64      0.98      0.77      2240
+
+    accuracy                           0.64      3906
+   macro avg       0.55      0.45      0.42      3906
+weighted avg       0.58      0.64      0.55      3906
+
+
+Results Summary:
+Mean Accuracy: 0.6660
+Mean Macro F1: 0.4879
+
+==========================================
+EXPERIMENT: Phase 3b: Validation (DEAP)
+Datasets: ['DEAP']
+==========================================
+Loading data for ['DEAP'] from Database...
+Loaded 8160 samples.
+Class distribution: {0: 4488, 1: 2400, 2: 1272}
+
+--- Starting Training (GroupKFold) ---
+Random Seed: 42
+Class Weights: Balanced
+
+FOLD 1: Accuracy = 0.6311 | Macro F1 = 0.4835
+Confusion Matrix:
+ [[846 131  55]
+ [266 134  44]
+ [ 60  46  50]]
+              precision    recall  f1-score   support
+
+           0       0.72      0.82      0.77      1032
+           1       0.43      0.30      0.35       444
+           2       0.34      0.32      0.33       156
+
+    accuracy                           0.63      1632
+   macro avg       0.50      0.48      0.48      1632
+weighted avg       0.61      0.63      0.61      1632
+
+
+FOLD 2: Accuracy = 0.5888 | Macro F1 = 0.4498
+Confusion Matrix:
+ [[787 157  28]
+ [286 126  32]
+ [131  37  48]]
+              precision    recall  f1-score   support
+
+           0       0.65      0.81      0.72       972
+           1       0.39      0.28      0.33       444
+           2       0.44      0.22      0.30       216
+
+    accuracy                           0.59      1632
+   macro avg       0.50      0.44      0.45      1632
+weighted avg       0.56      0.59      0.56      1632
+
+
+FOLD 3: Accuracy = 0.5000 | Macro F1 = 0.3836
+Confusion Matrix:
+ [[654 142  44]
+ [297 111  12]
+ [231  90  51]]
+              precision    recall  f1-score   support
+
+           0       0.55      0.78      0.65       840
+           1       0.32      0.26      0.29       420
+           2       0.48      0.14      0.21       372
+
+    accuracy                           0.50      1632
+   macro avg       0.45      0.39      0.38      1632
+weighted avg       0.48      0.50      0.46      1632
+
+
+FOLD 4: Accuracy = 0.5012 | Macro F1 = 0.3840
+Confusion Matrix:
+ [[656  79  33]
+ [396 114  18]
+ [204  84  48]]
+              precision    recall  f1-score   support
+
+           0       0.52      0.85      0.65       768
+           1       0.41      0.22      0.28       528
+           2       0.48      0.14      0.22       336
+
+    accuracy                           0.50      1632
+   macro avg       0.47      0.40      0.38      1632
+weighted avg       0.48      0.50      0.44      1632
+
+
+FOLD 5: Accuracy = 0.5435 | Macro F1 = 0.4305
+Confusion Matrix:
+ [[697 120  59]
+ [358 136  70]
+ [105  33  54]]
+              precision    recall  f1-score   support
+
+           0       0.60      0.80      0.68       876
+           1       0.47      0.24      0.32       564
+           2       0.30      0.28      0.29       192
+
+    accuracy                           0.54      1632
+   macro avg       0.46      0.44      0.43      1632
+weighted avg       0.52      0.54      0.51      1632
+
+
+Results Summary:
+Mean Accuracy: 0.5529
+Mean Macro F1: 0.4263
+
+==========================================
+EXPERIMENT: Phase 3c: Generalized Model (Combined)
+Datasets: ['EMOTIV', 'DEAP']
+==========================================
+Loading data for ['EMOTIV', 'DEAP'] from Database...
+Loaded 28108 samples.
+Class distribution: {2: 12648, 0: 8834, 1: 6626}
+
+--- Starting Training (GroupKFold) ---
+Random Seed: 42
+Class Weights: Balanced
+
+FOLD 1: Accuracy = 0.6564 | Macro F1 = 0.5466
+Confusion Matrix:
+ [[1254  239  324]
+ [ 492  159  554]
+ [ 236   87 2278]]
+              precision    recall  f1-score   support
+
+           0       0.63      0.69      0.66      1817
+           1       0.33      0.13      0.19      1205
+           2       0.72      0.88      0.79      2601
+
+    accuracy                           0.66      5623
+   macro avg       0.56      0.57      0.55      5623
+weighted avg       0.61      0.66      0.62      5623
+
+
+FOLD 2: Accuracy = 0.6567 | Macro F1 = 0.5677
+Confusion Matrix:
+ [[1361  245  284]
+ [ 581  220  573]
+ [ 161   84 2107]]
+              precision    recall  f1-score   support
+
+           0       0.65      0.72      0.68      1890
+           1       0.40      0.16      0.23      1374
+           2       0.71      0.90      0.79      2352
+
+    accuracy                           0.66      5616
+   macro avg       0.59      0.59      0.57      5616
+weighted avg       0.61      0.66      0.62      5616
+
+
+FOLD 3: Accuracy = 0.6354 | Macro F1 = 0.5538
+Confusion Matrix:
+ [[1292  183  342]
+ [ 457  234  610]
+ [ 304  155 2049]]
+              precision    recall  f1-score   support
+
+           0       0.63      0.71      0.67      1817
+           1       0.41      0.18      0.25      1301
+           2       0.68      0.82      0.74      2508
+
+    accuracy                           0.64      5626
+   macro avg       0.57      0.57      0.55      5626
+weighted avg       0.60      0.64      0.61      5626
+
+
+FOLD 4: Accuracy = 0.5864 | Macro F1 = 0.4898
+Confusion Matrix:
+ [[1118  141  342]
+ [ 632  143  586]
+ [ 449  175 2035]]
+              precision    recall  f1-score   support
+
+           0       0.51      0.70      0.59      1601
+           1       0.31      0.11      0.16      1361
+           2       0.69      0.77      0.72      2659
+
+    accuracy                           0.59      5621
+   macro avg       0.50      0.52      0.49      5621
+weighted avg       0.55      0.59      0.55      5621
+
+
+FOLD 5: Accuracy = 0.6140 | Macro F1 = 0.5131
+Confusion Matrix:
+ [[1048  136  525]
+ [ 455  168  762]
+ [ 240   52 2236]]
+              precision    recall  f1-score   support
+
+           0       0.60      0.61      0.61      1709
+           1       0.47      0.12      0.19      1385
+           2       0.63      0.88      0.74      2528
+
+    accuracy                           0.61      5622
+   macro avg       0.57      0.54      0.51      5622
+weighted avg       0.58      0.61      0.56      5622
+
+
+Results Summary:
+Mean Accuracy: 0.6298
+Mean Macro F1: 0.5342

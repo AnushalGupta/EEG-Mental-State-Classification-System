@@ -1,0 +1,245 @@
+Script started.
+Setting up database...
+Table 'eeg_features' checked/created successfully.
+Found 34 .mat files.
+Processing eeg_record1.mat...
+DEBUG: EEG shape: (14, 308868)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+C:\Users\anush\Downloads\Compressed\Coding\Project\EEG Data\etl_emotiv.py:37: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  return np.trapz(psd[idx], freqs[idx])
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 155268
+  -> Inserted 480 epochs.
+Processing eeg_record10.mat...
+DEBUG: EEG shape: (14, 381340)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 227740
+  -> Inserted 593 epochs.
+Processing eeg_record11.mat...
+DEBUG: EEG shape: (14, 391624)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 238024
+  -> Inserted 609 epochs.
+Processing eeg_record12.mat...
+DEBUG: EEG shape: (14, 356728)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 203128
+  -> Inserted 555 epochs.
+Processing eeg_record13.mat...
+DEBUG: EEG shape: (14, 373304)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 219704
+  -> Inserted 581 epochs.
+Processing eeg_record14.mat...
+DEBUG: EEG shape: (14, 345164)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 191564
+  -> Inserted 537 epochs.
+Processing eeg_record15.mat...
+DEBUG: EEG shape: (14, 359164)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 205564
+  -> Inserted 559 epochs.
+Processing eeg_record16.mat...
+DEBUG: EEG shape: (14, 234372)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 80772
+  -> Inserted 364 epochs.
+Processing eeg_record17.mat...
+DEBUG: EEG shape: (14, 443972)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 290372
+  -> Inserted 691 epochs.
+Processing eeg_record18.mat...
+DEBUG: EEG shape: (14, 361840)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 208240
+  -> Inserted 563 epochs.
+Processing eeg_record19.mat...
+DEBUG: EEG shape: (14, 333236)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 179636
+  -> Inserted 518 epochs.
+Processing eeg_record2.mat...
+DEBUG: EEG shape: (14, 366020)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 212420
+  -> Inserted 569 epochs.
+Processing eeg_record20.mat...
+DEBUG: EEG shape: (14, 396812)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 243212
+  -> Inserted 618 epochs.
+Processing eeg_record21.mat...
+DEBUG: EEG shape: (14, 336280)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 182680
+  -> Inserted 523 epochs.
+Processing eeg_record22.mat...
+DEBUG: EEG shape: (14, 324764)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 171164
+  -> Inserted 505 epochs.
+Processing eeg_record23.mat...
+DEBUG: EEG shape: (14, 388088)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 234488
+  -> Inserted 604 epochs.
+Processing eeg_record24.mat...
+DEBUG: EEG shape: (14, 360928)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 207328
+  -> Inserted 561 epochs.
+Processing eeg_record25.mat...
+DEBUG: EEG shape: (14, 415164)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 261564
+  -> Inserted 646 epochs.
+Processing eeg_record26.mat...
+DEBUG: EEG shape: (14, 363232)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 209632
+  -> Inserted 565 epochs.
+Processing eeg_record27.mat...
+DEBUG: EEG shape: (14, 347548)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 193948
+  -> Inserted 541 epochs.
+Processing eeg_record28.mat...
+DEBUG: EEG shape: (14, 214540)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 60940
+  -> Inserted 333 epochs.
+Processing eeg_record29.mat...
+DEBUG: EEG shape: (14, 424608)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 271008
+  -> Inserted 661 epochs.
+Processing eeg_record3.mat...
+DEBUG: EEG shape: (14, 357224)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 203624
+  -> Inserted 556 epochs.
+Processing eeg_record30.mat...
+DEBUG: EEG shape: (14, 349008)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 195408
+  -> Inserted 543 epochs.
+Processing eeg_record31.mat...
+DEBUG: EEG shape: (14, 428848)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 275248
+  -> Inserted 668 epochs.
+Processing eeg_record32.mat...
+DEBUG: EEG shape: (14, 483732)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 330132
+  -> Inserted 753 epochs.
+Processing eeg_record33.mat...
+DEBUG: EEG shape: (14, 483376)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 329776
+  -> Inserted 753 epochs.
+Processing eeg_record34.mat...
+DEBUG: EEG shape: (14, 408976)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 255376
+  -> Inserted 637 epochs.
+Processing eeg_record4.mat...
+DEBUG: EEG shape: (14, 380344)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 226744
+  -> Inserted 592 epochs.
+Processing eeg_record5.mat...
+DEBUG: EEG shape: (14, 351204)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 197604
+  -> Inserted 546 epochs.
+Processing eeg_record6.mat...
+DEBUG: EEG shape: (14, 288752)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 135152
+  -> Inserted 449 epochs.
+Processing eeg_record7.mat...
+DEBUG: EEG shape: (14, 398816)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 245216
+  -> Inserted 621 epochs.
+Processing eeg_record8.mat...
+DEBUG: EEG shape: (14, 365888)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 212288
+  -> Inserted 569 epochs.
+Processing eeg_record9.mat...
+DEBUG: EEG shape: (14, 388788)
+DEBUG: Segments count: 3
+DEBUG: Seg label 0, samples 76800
+DEBUG: Seg label 1, samples 76800
+DEBUG: Seg label 2, samples 235188
+  -> Inserted 605 epochs.
+ETL Complete. Total epochs stored: 19468

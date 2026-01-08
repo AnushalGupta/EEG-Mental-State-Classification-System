@@ -1,0 +1,102 @@
+C:\Users\anush\Downloads\Compressed\Coding\Project\EEG Data\train_model.py:17: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, conn)
+
+==========================================
+EXPERIMENT: Phase 3a: Baseline (EMOTIV)
+Datasets: ['EMOTIV']
+==========================================
+Loading data for ['EMOTIV'] from Database...
+Loaded 19468 samples.
+Class distribution: {2: 11376, 0: 4046, 1: 4046}
+Error: name 'prepare_data' is not defined
+Loading data for ['EMOTIV'] from Database...
+Loaded 19468 samples.
+Class distribution: {2: 11376, 0: 4046, 1: 4046}
+
+--- Starting Training (GroupKFold) ---
+Random Seed: 42
+Class Weights: Balanced
+
+FOLD 1: Accuracy = 0.6904 | Macro F1 = 0.5081
+Confusion Matrix:
+ [[ 501   24  308]
+ [ 237   50  546]
+ [ 105   23 2221]]
+              precision    recall  f1-score   support
+
+           0       0.59      0.60      0.60       833
+           1       0.52      0.06      0.11       833
+           2       0.72      0.95      0.82      2349
+
+    accuracy                           0.69      4015
+   macro avg       0.61      0.54      0.51      4015
+weighted avg       0.65      0.69      0.63      4015
+
+
+FOLD 2: Accuracy = 0.7232 | Macro F1 = 0.5407
+Confusion Matrix:
+ [[ 474   33  207]
+ [ 138   40  536]
+ [  51   25 2072]]
+              precision    recall  f1-score   support
+
+           0       0.71      0.66      0.69       714
+           1       0.41      0.06      0.10       714
+           2       0.74      0.96      0.83      2148
+
+    accuracy                           0.72      3576
+   macro avg       0.62      0.56      0.54      3576
+weighted avg       0.67      0.72      0.66      3576
+
+
+FOLD 3: Accuracy = 0.6467 | Macro F1 = 0.5057
+Confusion Matrix:
+ [[ 475   45  313]
+ [ 123   85  625]
+ [ 164  120 1984]]
+              precision    recall  f1-score   support
+
+           0       0.62      0.57      0.60       833
+           1       0.34      0.10      0.16       833
+           2       0.68      0.87      0.76      2268
+
+    accuracy                           0.65      3934
+   macro avg       0.55      0.52      0.51      3934
+weighted avg       0.60      0.65      0.60      3934
+
+
+FOLD 4: Accuracy = 0.6299 | Macro F1 = 0.4631
+Confusion Matrix:
+ [[ 428   36  369]
+ [ 165   54  614]
+ [ 214   96 2061]]
+              precision    recall  f1-score   support
+
+           0       0.53      0.51      0.52       833
+           1       0.29      0.06      0.11       833
+           2       0.68      0.87      0.76      2371
+
+    accuracy                           0.63      4037
+   macro avg       0.50      0.48      0.46      4037
+weighted avg       0.57      0.63      0.58      4037
+
+
+FOLD 5: Accuracy = 0.6400 | Macro F1 = 0.4222
+Confusion Matrix:
+ [[ 293   25  515]
+ [  76   11  746]
+ [  44    0 2196]]
+              precision    recall  f1-score   support
+
+           0       0.71      0.35      0.47       833
+           1       0.31      0.01      0.03       833
+           2       0.64      0.98      0.77      2240
+
+    accuracy                           0.64      3906
+   macro avg       0.55      0.45      0.42      3906
+weighted avg       0.58      0.64      0.55      3906
+
+
+Results Summary:
+Mean Accuracy: 0.6660
+Mean Macro F1: 0.4879

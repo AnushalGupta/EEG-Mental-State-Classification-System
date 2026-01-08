@@ -1,0 +1,26 @@
+# Datasets (Large files excluded)
+EMOTIV_Data/
+DEAP_Data/
+*.mat
+*.dat
+*.npy
+
+# Computed Results (Optional - keep only specific summary logs)
+# results/
+
+# Database
+*.db
+*.sqltmp
+*.sqlite3
+
+# Python / Environment
+__pycache__/
+*.pyc
+.env
+venv/
+.input/
+.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
